@@ -1,0 +1,12 @@
+
+apiVersion: v1
+name: osm-seed-deploy
+version: 0.0.1
+appVersion: 0.0.1
+description: OpenStreetMap Software Install (Example)
+home: https://github.com/developmentseed/osm-seed
+sources:
+  - https://github.com/developmentseed/osm-seed
+kubeVersion: '>=1.15.0-0'
+tillerVersion: '>=2.11.0-0'
+
